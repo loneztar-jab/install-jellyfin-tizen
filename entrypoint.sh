@@ -53,4 +53,6 @@ echo "$DOWNLOAD_URL"
 
 wget -q --show-progress "$DOWNLOAD_URL"
 
+tizen install-permit -t UN75DU7200BXZA
+
 tizen install -n $JELLYFIN_BUILD_OPTION.wgt -t "$TV_NAME"
